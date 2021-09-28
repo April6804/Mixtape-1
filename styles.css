@@ -1,0 +1,33 @@
+body{
+  background: #e4d1d1;
+  font-size: 18px;
+}
+#wrapper{
+  width:600px;
+  margin:auto;
+  display:block;
+}
+img{
+  width:100%;
+}
+p{
+  font-size: 1.2em;
+  line-height: 1.2em
+
+}
+h1, h2, h3{
+  text-align:center;
+}
+a{
+  color: #4f7979;
+}
+a:visited{
+  color: #4f7979;
+}
+li{
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+li::marker {
+  color:grey;
+}

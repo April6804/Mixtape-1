@@ -2,35 +2,16 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>April's Mixtape</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
 /*   CSS comment with pressing down commnd and then forward slash on a mac     */
-      body{
-        background: #e4d1d1;
-        font-size: 18px;
-      }
-      #wrapper{
-        width:600px;
-        margin:auto;
-        display:block;
-      }
-      img{
-        width:100%;
-      }
-      h1, h2, h3{
-        text-align:center;
-      }
-      a{
-        color: #4f7979;
-      }
-      a:visited{
-        color: #4f7979;
-      }
+
     </style>
   </head>
   <body>
    <div id="wrapper">
-       <img src="polaroid.jpg"/>
+      <img src="polaroid.jpg"/>
       <h1 class="center" id="top"> New Film</h1>
       <h2>Who Dis?</h2>
       <br>
@@ -59,11 +40,18 @@
 
            <li><a href="#ten">Demons - Sleigh Bells</a></li>
 
+           <li><a href="#playlist">Listen to the full playlist and more!</a></li>
+
        </ol>
 
 
-       <h3 id="one">Good 2 Yourself - Life in Sweatpants</h3>
-       <p><a href="https://lifeinsweatpants.bandcamp.com/community">Hear the song on Band Camp</a></p>
+         <h3 id="one">Good 2 Yourself - Life in Sweatpants</h3>
+         <div class="info">
+           <img src="good2you.jpg" alt="Good 2 Yourself albumn cover">
+           <p><a href="https://lifeinsweatpants.bandcamp.com/community">Hear the song on Band Camp</a></p>
+
+        </div>
+
 
 
 
@@ -75,7 +63,7 @@
        <p>Clairo rose to prominence following the viral success of the music video for her lo-fi single "Pretty Girl" in 2017. <a href="https://open.spotify.com/track/4PvbbMYL4fkToni5BLaYRb">Listen to Softly by Clairo on Spotify</a></p>
 
 
-       <h3 id="four">Down The Line - Jose Gonzales</h3>
+       <h3 id="four">Down The Line - José González</h3>
        <p>José González is a Swedish indie folk singer-songwriter and guitarist from Gothenburg. González is also a member of the band Junip, along with Tobias Winterkorn. I loved watching him play an acustic set.
        <br><a href="https://soundcloud.com/josegonzalez/down-the-line">Check out the song at Soundcloud</a></p>
 
@@ -105,21 +93,31 @@
        <h3 id="ten">Demons - Sleigh Bells</h3>
        <p>This song is a real banger!</p>
 
+       <h3><a href="#top">Back to top</a></h3>
+
+       <!-- Spotify Playlist -->
+       <div id="playlist">
+         <iframe src="https://open.spotify.com/embed/playlist/3M8NBcjoAjD4hWDesiKAyc" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+       </div>
+       <!-- END Spotify Playlist -->
+
+       <hr>
+
+
+       <h2>Video example</h2>
+       <h3>Nothing 2 Step 2 - Thunderheist</h3>
+        <div class="video">
+            <!-- THE CSS FOR "VIDEO"  WILL CONTROL SIZE OF THE VIDEO -->
+            <iframe src="https://www.youtube.com/embed/80A_nUQ_7Ts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <h3><a href="#top">Back to top</a></h3>
+
    </div>
 <!--   closing wrapper div    -->
 <!--   shortcut for a comment is hold down command and hit forwardslash    -->
 
-<hr>
 
-
-      <h2>Video example</h2>
-      <h3>Nothing 2 Step 2 - Thunderheist</h3>
-       <div class="video">
-           <!-- THE CSS FOR "VIDEO"  WILL CONTROL SIZE OF THE VIDEO -->
-           <iframe src="https://www.youtube.com/embed/80A_nUQ_7Ts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-       </div>
-
-       <h2><a href="#top">Back to top</a></h2>
 
 
 
