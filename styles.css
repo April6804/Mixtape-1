@@ -1,33 +1,93 @@
 body{
-  background: #e4d1d1;
-  font-size: 18px;
+  background: #7f968f;
+  /* background-image: url("sarah.jpg"); */
+  /* background-position: center; */
+  /* background-attachment: fixed; */
+  font-size: 16px;
+  color:black;
+  font-family: sans-serif;
 }
-#wrapper{
-  width:600px;
-  margin:auto;
-  display:block;
+
+.cover-art{
+        max-width:400px;
 }
+
 img{
   width:100%;
 }
-p{
-  font-size: 1.2em;
-  line-height: 1.2em
 
+h1{
+    mix-blend-mode: overlay;
+    text-align:center;
+    font-size: 5em;
+    font-family:impact, sans-serif;
+    /* line-height:1em; */
+    color:white;
 }
-h1, h2, h3{
+
+h2{
   text-align:center;
 }
+
+h3{
+    margin-top: 50px;
+}
+
+p{
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin-top:0;
+}
+
 a{
-  color: #4f7979;
+  /* color: grey; */
 }
 a:visited{
-  color: #4f7979;
+  /* color: grey; */
 }
 li{
-  font-size: 1.2em;
-  line-height: 1.4em;
+  /* font-size: 1.2em; */
+  /* line-height: 1.4em; */
 }
 li::marker {
-  color:grey;
+  /* color:grey; */
 }
+
+#wrapper{
+  max-width:400px;
+  margin:auto;
+  display:block;
+  background:rgba(255, 255, 255, .8);
+  padding: 10px;
+
+}
+
+
+/* BEGIN TABLET STYLES */
+@media screen and (min-width: 600px){
+    .info{
+        display: grid;
+        grid-auto-flow: column;
+    }
+
+    .info img{
+        max-width:250px;
+    }
+
+    .info p{
+        margin-left: 20px;
+    }
+
+}/* This is the closing curly brace for the media query */
+
+/* START LARGER SCREENS */
+@media screen and (min-width: 1100px){
+    /* #wrapper{
+      max-width:1000px;
+  } */
+
+  .info img{
+      max-width:350px;
+  }
+
+ }/* This is the closing curly brace for the media query */
