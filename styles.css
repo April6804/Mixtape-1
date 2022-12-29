@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Bau";
+  src: local("Bau"),
+    url("font/BauhausRegular.otf") format("opentype"), url("font/BauhausRegular.woff2") format("woff2");
+}
 body{
   background: #7f968f;
   /* background-image: url("sarah.jpg"); */
@@ -5,7 +10,7 @@ body{
   /* background-attachment: fixed; */
   font-size: 16px;
   color:black;
-  font-family: sans-serif;
+  font-family: 'Bau', sans-serif;
 }
 
 .cover-art{
