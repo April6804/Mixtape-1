@@ -3,6 +3,11 @@
   src: local("Bau"),
     url("font/BauhausRegular.otf") format("opentype"), url("font/BauhausRegular.woff2") format("woff2");
 }
+@font-face {
+  font-family: "BauLight";
+  src: local("BauLight"),
+    url("font/BauhausPro-Light.otf") format("opentype"), url("font/BauhausPro-Light.woff2") format("woff2");
+}
 body{
   background: #7f968f;
   /* background-image: url("sarah.jpg"); */
