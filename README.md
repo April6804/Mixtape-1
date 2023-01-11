@@ -3,13 +3,14 @@
 My example is not supposed to be a finished work of art. Learn more CSS to make your mixtape site look better than this!
 
 ## TO DO:
-- Add a header
+- In Atom, create an index.html doc then type HTML and hit tab to generate some code
+- Upload to your Mixtape Repo
 - Create a GitHub Page (see below) and add your link in About section
 - Add an ordered list
 - Add jump links
 - Link to top
 - Add CSS as we learn colors, backgrounds, and typography
-- Add "albumn cover"
+- Add "album cover" to the header
 - Add media/videos/links for more interest
 
 ## What else should you do?
