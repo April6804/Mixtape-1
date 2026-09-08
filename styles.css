@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   background: #7f968f;
   /* background-image: url("sarah.jpg"); */
